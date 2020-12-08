@@ -3,8 +3,8 @@
 ## Pré requisitos
 
 Para executar corretamente o aplicativo conteinerizado deve ter instalado:
-**[Docker][docker-install]**
-**[Docker Compose][docker-compose]**
+1. **[Docker][docker-install]**
+2. **[Docker Compose][docker-compose]**
 
 ## Executando o aplicativo com o Docker Compose
 Compile a imagem do app com o seguinte comando:
