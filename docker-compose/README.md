@@ -6,9 +6,11 @@ Compile a imagem do app com o seguinte comando:
 >docker-compose build app
 
 Esse comando pode levar alguns minutos para completar. Você verá um resultado similar a este:
->
+
 >Output
+>
 >Building app
+>
 >Step 1/11 : FROM php:7.4-fpm
 > ---> fa37bd6db22a
 >Step 2/11 : ARG user
