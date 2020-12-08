@@ -68,31 +68,56 @@ Agora, seu ambiente está funcionando! Porém, ainda precisaremos executar algun
 >docker-compose exec app ls -l
 
 <blockquote>
-Output
-total 256
--rw-rw-r-- 1 sammy 1001    738 Jan 15 16:46 Dockerfile
--rw-rw-r-- 1 sammy 1001    101 Jan  7 08:05 README.md
-drwxrwxr-x 6 sammy 1001   4096 Jan  7 08:05 app
--rwxr-xr-x 1 sammy 1001   1686 Jan  7 08:05 artisan
-drwxrwxr-x 3 sammy 1001   4096 Jan  7 08:05 bootstrap
--rw-rw-r-- 1 sammy 1001   1501 Jan  7 08:05 composer.json
--rw-rw-r-- 1 sammy 1001 179071 Jan  7 08:05 composer.lock
-drwxrwxr-x 2 sammy 1001   4096 Jan  7 08:05 config
-drwxrwxr-x 5 sammy 1001   4096 Jan  7 08:05 database
-drwxrwxr-x 4 sammy 1001   4096 Jan 15 16:46 docker-compose
--rw-rw-r-- 1 sammy 1001   1015 Jan 15 16:45 docker-compose.yml
--rw-rw-r-- 1 sammy 1001   1013 Jan  7 08:05 package.json
--rw-rw-r-- 1 sammy 1001   1405 Jan  7 08:05 phpunit.xml
-drwxrwxr-x 2 sammy 1001   4096 Jan  7 08:05 public
-drwxrwxr-x 6 sammy 1001   4096 Jan  7 08:05 resources
--rw-rw-r-- 1 sammy 1001    273 Jan  7 08:05 readme.md
-drwxrwxr-x 2 sammy 1001   4096 Jan  7 08:05 routes
--rw-rw-r-- 1 sammy 1001    563 Jan  7 08:05 server.php
-drwxrwxr-x 5 sammy 1001   4096 Jan  7 08:05 storage
-drwxrwxr-x 4 sammy 1001   4096 Jan  7 08:05 tests
--rw-rw-r-- 1 sammy 1001    538 Jan  7 08:05 webpack.mix.js
+Output<br>
+total 256<br>
+-rw-rw-r-- 1 sammy 1001    738 Jan 15 16:46 Dockerfile<br>
+-rw-rw-r-- 1 sammy 1001    101 Jan  7 08:05 README.md<br>
+drwxrwxr-x 6 sammy 1001   4096 Jan  7 08:05 app<br>
+-rwxr-xr-x 1 sammy 1001   1686 Jan  7 08:05 artisan<br>
+drwxrwxr-x 3 sammy 1001   4096 Jan  7 08:05 bootstrap<br>
+-rw-rw-r-- 1 sammy 1001   1501 Jan  7 08:05 composer.json<br>
+-rw-rw-r-- 1 sammy 1001 179071 Jan  7 08:05 composer.lock<br>
+drwxrwxr-x 2 sammy 1001   4096 Jan  7 08:05 config<br>
+drwxrwxr-x 5 sammy 1001   4096 Jan  7 08:05 database<br>
+drwxrwxr-x 4 sammy 1001   4096 Jan 15 16:46 docker-compose<br>
+-rw-rw-r-- 1 sammy 1001   1015 Jan 15 16:45 docker-compose.yml<br>
+-rw-rw-r-- 1 sammy 1001   1013 Jan  7 08:05 package.json<br>
+-rw-rw-r-- 1 sammy 1001   1405 Jan  7 08:05 phpunit.xml<br>
+drwxrwxr-x 2 sammy 1001   4096 Jan  7 08:05 public<br>
+drwxrwxr-x 6 sammy 1001   4096 Jan  7 08:05 resources<br>
+-rw-rw-r-- 1 sammy 1001    273 Jan  7 08:05 readme.md<br>
+drwxrwxr-x 2 sammy 1001   4096 Jan  7 08:05 routes<br>
+-rw-rw-r-- 1 sammy 1001    563 Jan  7 08:05 server.php<br>
+drwxrwxr-x 5 sammy 1001   4096 Jan  7 08:05 storage<br>
+drwxrwxr-x 4 sammy 1001   4096 Jan  7 08:05 tests<br>
+-rw-rw-r-- 1 sammy 1001    538 Jan  7 08:05 webpack.mix.js<br>
 </blockquote>
 
 Agora, vamos executar o composer install para instalar as dependências do aplicativo:
 >docker-compose exec app composer install
 
+Você verá um resultado como este:
+```sh
+Output
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Package operations: 85 installs, 0 updates, 0 removals
+  - Installing doctrine/inflector (1.3.1): Downloading (100%)         
+  - Installing doctrine/lexer (1.2.0): Downloading (100%)         
+  - Installing dragonmantank/cron-expression (v2.3.0): Downloading (100%)         
+  - Installing erusev/parsedown (1.7.4): Downloading (100%)         
+  - Installing symfony/polyfill-ctype (v1.13.1): Downloading (100%)         
+  - Installing phpoption/phpoption (1.7.2): Downloading (100%)         
+  - Installing vlucas/phpdotenv (v3.6.0): Downloading (100%)         
+  - Installing symfony/css-selector (v5.0.2): Downloading (100%)        
+…
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+Discovered Package: facade/ignition
+Discovered Package: fideloper/proxy
+Discovered Package: laravel/tinker
+Discovered Package: nesbot/carbon
+Discovered Package: nunomaduro/collision
+Package manifest generated successfully.
+```
