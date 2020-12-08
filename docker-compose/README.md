@@ -1,5 +1,11 @@
 # Script para subir o docker
 
+## Pré requisitos
+
+Para executar corretamente o aplicativo conteinerizado deve ter instalado:
+**[Docker][docker-install]**
+**[Docker Compose][docker-compose]**
+
 ## Executando o aplicativo com o Docker Compose
 Compile a imagem do app com o seguinte comando:
 
@@ -164,9 +170,9 @@ docker-compose pause
 
 ```sh
 Output
-Pausing travellist-db    ... done
-Pausing travellist-nginx ... done
-Pausing travellist-app   ... done
+Pausing mecanix-db    ... done
+Pausing mecanix-nginx ... done
+Pausing mecanix-app   ... done
 ```
 
 Em seguida, você poderá retomar os seus serviços com:
@@ -177,9 +183,9 @@ docker-compose unpause
 
 ```sh
 Output
-Unpausing travellist-app   ... done
-Unpausing travellist-nginx ... done
-Unpausing travellist-db    ... done
+Unpausing mecanix-app   ... done
+Unpausing mecanix-nginx ... done
+Unpausing mecanix-db    ... done
 ```
 
 Para fechar seu ambiente do Docker Compose e remover todos os seus contêineres, redes e volumes, execute:
@@ -190,15 +196,17 @@ docker-compose down
 
 ```sh
 Output
-Stopping travellist-nginx ... done
-Stopping travellist-db    ... done
-Stopping travellist-app   ... done
-Removing travellist-nginx ... done
-Removing travellist-db    ... done
-Removing travellist-app   ... done
-Removing network travellist-laravel-demo_travellist
+Stopping mecanix-nginx ... done
+Stopping mecanix-db    ... done
+Stopping mecanix-app   ... done
+Removing mecanix-nginx ... done
+Removing mecanix-db    ... done
+Removing mecanix-app   ... done
+Removing network mecanix-laravel-demo_mecanix
 ```
 
 Para obter um panorama de todos os comandos do Docker Compose, verifique a [Referência da linha de comando do Docker Compose][docker-compose].
 
+[docker-install]: https://docs.docker.com/get-docker/
+[docker-compose]: https://docs.docker.com/compose/install/
 [docker-compose]: https://docs.docker.com/compose/reference/
