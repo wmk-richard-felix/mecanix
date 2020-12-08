@@ -7,8 +7,7 @@ Compile a imagem do app com o seguinte comando:
 
 Esse comando pode levar alguns minutos para completar. Você verá um resultado similar a este:
 
->Output
->
+>Output<br>
 >Building app
 >
 >Step 1/11 : FROM php:7.4-fpm
