@@ -1,0 +1,52 @@
+.img-logo {
+    max-width: 100px;
+}
+.banner-home {
+    margin-bottom: 60px;
+}
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+    font-weight: 300;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+    font-weight: 300;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.section-category {
+    margin-bottom: 60px;
+}
+.box-category {
+    border: 1px solid #000;
+}
+.box-category a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 60px 0px;
+    color: #000;
+    text-decoration: none;
+}
+.section-diagnosis {
+    margin-bottom: 60px;
+}
+.btn-diagnosis {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.copyright {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0px;
+}
