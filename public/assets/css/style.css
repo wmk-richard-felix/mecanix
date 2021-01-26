@@ -21,10 +21,11 @@ h2 {
 .section-category {
     margin-bottom: 60px;
 }
-.box-category {
-    border: 1px solid #000;
+.box-category h2 {
+    margin-bottom: 0px;
 }
 .box-category a {
+    background-color: #094971;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     font-size: 30px;
@@ -32,17 +33,24 @@ h2 {
     text-align: center;
     width: 100%;
     padding: 60px 0px;
-    color: #000;
+    color: #fff;
     text-decoration: none;
+    margin-bottom: 0px;
 }
 .section-diagnosis {
     margin-bottom: 60px;
 }
 .btn-diagnosis {
+    background: #BF4811;
+    border-color: #BF4811;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     font-size: 30px;
 }
+.btn-diagnosis:hover {
+    background: #094971;
+    border-color: #094971;
+} 
 .copyright {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
