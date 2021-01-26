@@ -1,0 +1,60 @@
+.img-logo {
+    max-width: 100px;
+}
+.banner-home {
+    margin-bottom: 60px;
+}
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+    font-weight: 300;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+    font-weight: 300;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.section-category {
+    margin-bottom: 60px;
+}
+.box-category h2 {
+    margin-bottom: 0px;
+}
+.box-category a {
+    background-color: #094971;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 60px 0px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+.section-diagnosis {
+    margin-bottom: 60px;
+}
+.btn-diagnosis {
+    background: #BF4811;
+    border-color: #BF4811;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.btn-diagnosis:hover {
+    background: #094971;
+    border-color: #094971;
+} 
+.copyright {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0px;
+}

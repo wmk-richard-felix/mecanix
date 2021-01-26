@@ -14,11 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+use App\Http\Controllers\Site\HomeController;
 use App\Http\Controllers\LoginController;
 
-Route::get('/', function () {
-    return view('welcome');
+Route::name('site.')->group(function () {
+    Route::get('/', [HomeController::class, 'index'])->name('home');
 });
 
-
-Route::get('/auth/login', [LoginController::class, 'index']);
+Route::name('auth.')->group(function () {
+    Route::get('/auth/login', [LoginController::class, 'index'])->name('login');
+});
