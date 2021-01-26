@@ -10,9 +10,8 @@
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="../css/login.css" rel="stylesheet">
 
 </head>
@@ -22,17 +21,15 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-sm-6 px-0 d-none d-sm-block">
-
+        <div class="col-sm-6 px-0 d-none d-sm-block">
                 <img src="../images/car-mechanic-and-customer-shaking-hands.jpg" alt="login image" class="login-img">
-
-
-            </div>
-
-            <div class="col-sm-6 login-section-wrapper">
+            </div>    
+        
+         <div class="col-sm-6 login-section-wrapper">
                 <div class="brand-wrapper">
-                    <img src="../images/Logo-sm.svg" alt="logo" class="logo">
+                    <img src="../images/logo-without-name.svg" alt="logo" class="logo">
                 </div>
+
                 <div class="login-wrapper my-auto">
                     <h1 class="login-title">Bem-vindo à Mecanix</h1>
 
@@ -47,7 +44,7 @@
                             <input type="password" name="password" id="password" class="form-control"
                                 placeholder="Insira sua senha">
                         </div>
-                        <input name="login" id="login" class="btn btn-block login-btn" type="button" value="Login">
+                        <input name="login" id="login" class="btn-lg btn-block login-btn" type="button" value="Login">
                     </form>
 
                     <a href="#!" class="forgot-password-link">Esqueci minha senha</a>
@@ -56,13 +53,12 @@
                 </div>
             </div>
 
-
+            
 
         </div>
+
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 
 </html>
