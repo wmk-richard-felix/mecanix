@@ -1,0 +1,75 @@
+.login-img {
+    width: 100%;
+    height: 100%;
+    min-height: calc(100vh - 140px);
+    filter: brightness(70%);
+}
+
+.login-title {
+    font-size: 28px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-wrapper label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #626262; 
+    text-align: left;
+}
+
+.login-wrapper .form-control {
+    border: none;
+    border-bottom: 1px solid #b0adad;
+    border-radius: 0;
+    padding: 9px 5px;
+    min-height: 40px;
+    font-size: 16px;
+    font-weight: normal; 
+}
+
+.login-wrapper .form-control::placeholder {
+    color: #b0adad; 
+}
+
+.login-wrapper .login-btn {
+    background-color: #094971;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; 
+    border: none;
+}
+
+.login-wrapper .login-btn:hover {
+    border: 1px solid #094971;
+    background-color: #fff;
+    color: #094971; 
+}
+
+.login-wrapper a.forgot-password-link {
+    color: #BF4811;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 54px; 
+    text-decoration: none;
+}
+
+.login-wrapper-footer-text {
+    font-size: 12px;
+    color: #000;
+}
+
+.text-reset {
+    font-weight: bold;
+    font-size: 12px;
+    color: #BF4811!important;
+    text-decoration: none;
+}
+
+  /*Mobile*/
+@media (max-width: 778px)
+{
+    
+}
