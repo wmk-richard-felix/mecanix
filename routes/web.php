@@ -22,5 +22,8 @@ Route::name('site.')->group(function () {
 });
 
 Route::name('auth.')->group(function () {
-    Route::get('/auth/login', [LoginController::class, 'index'])->name('login');
+    Route::get('/auth/signin', [LoginController::class, 'signIn'])->name('signin');
+    Route::get('/auth/signup', [LoginController::class, 'signUp'])->name('signup');
+    Route::get('/auth/forgotten-password', [LoginController::class, 'resetPassword'])->name('forgotten-password');
+   
 });
