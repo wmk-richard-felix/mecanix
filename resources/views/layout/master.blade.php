@@ -21,9 +21,9 @@
 
 	</head>
 	<body>
-		@include('includes._header')
+		@include('shared.header')
 	    @yield('content')
-	    @include('includes._footer')
+	    @include('shared.footer')
      	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<!-- <script src="{{ asset('assets/js/modernizr.js/') }}" type="text/javascript"></script> -->
