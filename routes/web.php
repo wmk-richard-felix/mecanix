@@ -21,6 +21,8 @@ Route::name('site.')->group(function () {
     Route::get('/', [HomeController::class, 'index'])->name('home');
 });
 
+Route::view('/diagnostico', 'pages.diagnostico');
+
 Route::name('auth.')->group(function () {
     Route::get('/auth/signin', [LoginController::class, 'signIn'])->name('signin');
     Route::get('/auth/signup', [LoginController::class, 'signUp'])->name('signup');

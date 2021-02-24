@@ -86,8 +86,11 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-12">
-					<a class="btn btn-primary btn-diagnosis" href="#" role="button">Realizar diagnóstico</a>
+				<div class="col-5 offset-1">
+					<img src="{{ asset('/images/robot.png') }}" alt="">
+				</div>
+				<div class="col-5" style="margin-top: 13%; margin-right: 5%;">
+					<a class="btn btn-primary btn-diagnosis" href="{{url('diagnostico')}}" role="button">Realizar diagnóstico</a>
 				</div>
 			</div>
 		</div>
