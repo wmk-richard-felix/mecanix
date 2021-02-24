@@ -2,7 +2,7 @@ html {
     position: relative;
 }
 .img-logo {
-    max-width: 100px;
+    width: 140px;
 }
 
 header {
@@ -11,7 +11,7 @@ header {
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Khula', sans-serif;
     background-color: rgb(255, 244, 244);
     min-height: 100vh; 
     padding-top: 80px;
@@ -35,7 +35,58 @@ footer {
     text-align: center;
 }
 
+/* Menu */
+.nav-item {
+    margin-right: 25px;
+}
+
+.button-prestar {
+    color: #ffffff;
+    border-radius: 30px;
+    background-color: #db871a;
+    display: block;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-cnt {
+    color: #db871a;
+    border-radius: 30px;
+    border: 1px solid #db871a;
+    display: block;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.button-cnt:hover {
+    color: #db871a;
+}
+
+.button-prestar:hover {
+    color: #ffffff;
+}
+
+nav ul li a {
+    position: relative;
+    font-size: 16px !important;
+    text-decoration: none !important;
+}
+
+
 /*Mobile*/
+@media (max-width: 767.98px) {
+.footer {
+    left: 0 !important;
+    text-align: center;
+}
+}
+
 @media (max-width: 778px)
 {
     

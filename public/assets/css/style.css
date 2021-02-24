@@ -48,6 +48,15 @@ h2 {
     background: #094971;
     border-color: #094971;
 } 
+
+.large{
+    height: 110px;
+}
+
+.small{
+    height: 70px;
+}
+
 /*Mobile*/
 @media (max-width: 778px)
 {
