@@ -9,7 +9,7 @@
 			<div class="row">
 				<div class="col-md-6 box-category">
 					<h1>Realize o diagnóstico do seu veículo</h1>
-					<img src="{{ asset('/images/robot.png') }}" alt="">
+					<img class="img-fluid" src="{{ asset('/images/robot.png') }}" alt="">
                 </div>
                 <div class="col-md-6 box-category">
 					<iframe class="chatbot" src="https://mecanix-chatroom.azurewebsites.net/"></iframe>

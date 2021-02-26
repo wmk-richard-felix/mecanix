@@ -9,27 +9,21 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse pt-1" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <!-- <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Institucional</a>
-                        </li>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 itens-menu">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Busca Profissionais</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Seja um profissional</a>
+                            <a class="nav-link" href="{{url('/diagnostico')}}">Diagnóstico</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="#">Sobre nós</a>
                         </li>
                         <li>
-                            <a class="button-cnt" href="#">Acessar Conta</a>
+                            <a class="button-cnt" href="{{url('auth/signin')}}">Acessar Conta</a>
                         </li>
                         <li>
-                            <a class="button-prestar" href="#">Cadastre sua Oficina</a>
+                            <a class="button-prestar" href="#">Seja um profissional</a>
                         </li>
                     </ul>
                 </div>

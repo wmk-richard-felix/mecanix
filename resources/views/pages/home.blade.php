@@ -81,16 +81,16 @@
 			<div class="row">
 				<div class="col-12">
 					<h2>
-						Deseja realizar um diagnóstico do problema que seu tem?
+						Deseja realizar um diagnóstico do problema do seu carro?
 					</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-5 offset-1">
-					<img src="{{ asset('/images/robot.png') }}" alt="">
+				<div class="col-sm-12 col-md-5 col-lg-5">
+					<img class="diagnostico-home img-fluid" src="{{ asset('/images/robot.png') }}" alt="">
 				</div>
-				<div class="col-5" style="margin-top: 13%; margin-right: 5%;">
-					<a class="btn btn-primary btn-diagnosis" href="{{url('diagnostico')}}" role="button">Realizar diagnóstico</a>
+				<div class="col-sm-12 col-md-5 col-lg-5">
+					<a class="btn btn-primary btn-diagnosis diagnostico-home diagnostico-home-btn" href="{{url('diagnostico')}}" role="button">Realizar diagnóstico</a>
 				</div>
 			</div>
 		</div>

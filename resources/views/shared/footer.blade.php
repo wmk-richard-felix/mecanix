@@ -1,5 +1,5 @@
 <footer>
-    <div class="copyright border-top">
+    <p class="copyright">
         {{ date('Y') }}  &copy; Mecanix. Feito com 💘 e muito ☕
-    </div>
+    </p>
 </footer>
