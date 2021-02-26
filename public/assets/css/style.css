@@ -1,13 +1,13 @@
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #333333;
+    color: #a5a5a5;
     font-weight: 300;
     font-size: 34px;
     margin-bottom: 20px;
 }
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #333333;
+    color: #a5a5a5;
     font-weight: 300;
     font-size: 34px;
     margin-bottom: 20px;
@@ -38,8 +38,8 @@ h2 {
     margin-bottom: 60px;
 }
 .btn-diagnosis {
-    background: #BF4811;
-    border-color: #BF4811;
+    background: #db871a;
+    border-color: #db871a;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     font-size: 30px;
@@ -48,6 +48,15 @@ h2 {
     background: #094971;
     border-color: #094971;
 } 
+
+.large{
+    height: 110px;
+}
+
+.small{
+    height: 70px;
+}
+
 /*Mobile*/
 @media (max-width: 778px)
 {

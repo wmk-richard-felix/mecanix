@@ -2,7 +2,11 @@ html {
     position: relative;
 }
 .img-logo {
-    max-width: 100px;
+    width: 140px;
+}
+
+.img-logo-simple {
+    width: 100px;
 }
 
 header {
@@ -11,8 +15,8 @@ header {
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: rgb(255, 244, 244);
+    font-family: 'Khula', sans-serif;
+    /* background-color: rgb(255, 244, 244); */
     min-height: 100vh; 
     padding-top: 80px;
     padding-bottom: 60px;
@@ -22,20 +26,104 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
     height: 60px;
-    line-height: 60px; /* Vertically center the text there */
+    line-height: 60px;
     background-color: #ccc;
 }
 
-.copyright {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+footer p.copyright {
+    border-top: 1px solid #b3becd;
+    padding: 35px 0;
+    text-align: center;
+    margin: 0;
+    background: #f1efef; 
+    color: #757d8c;
+}
+
+/* Menu */
+.nav-item {
+    margin-right: 2.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    font-weight: 500;
+}
+
+.itens-menu {
+    margin-left: 10%;
+}
+
+.button-prestar {
+    color: #ffffff;
+    border-radius: 30px;
+    background-color: #db871a;
+    display: block;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-cnt {
+    color: #db871a;
+    border-radius: 30px;
+    border: 1px solid #db871a;
+    display: block;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.button-cnt:hover {
+    color: #db871a;
+}
+
+.button-prestar:hover {
+    color: #ffffff;
+}
+
+nav ul li a {
+    position: relative;
+    font-size: 16px !important;
+    text-decoration: none !important;
+}
+
+.chatbot {
+    width: 390px;
+    height: 450px;
+}
+
+.diagnostico-home {
+    margin-left: 30%;
+}
+
+.diagnostico-home-btn {
+    margin-top: 40%;
+}
+
+
+/*Mobile*/
+@media (max-width: 767.98px) {
+.footer {
+    left: 0 !important;
     text-align: center;
 }
 
-/*Mobile*/
+.diagnostico-home {
+    margin-left: 0%;
+}
+
+.diagnostico-home-btn {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+}
+
 @media (max-width: 778px)
 {
     
