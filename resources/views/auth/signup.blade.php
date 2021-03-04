@@ -42,7 +42,7 @@
         <div class="container-fluid pb-2">
             <div class="row">
                 <div class="col-12 px-1 text-center">
-                    <a href="#" class="text-reset">Cancelar</a>
+                    <a href="/" class="text-reset">Cancelar</a>
                 </div>
             </div>
         </div>

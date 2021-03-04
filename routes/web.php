@@ -26,6 +26,6 @@ Route::view('/diagnostico', 'pages.diagnostico');
 Route::name('auth.')->group(function () {
     Route::get('/auth/signin', [LoginController::class, 'signIn'])->name('signin');
     Route::get('/auth/signup', [LoginController::class, 'signUp'])->name('signup');
-    Route::get('/auth/forgotten-password', [LoginController::class, 'resetPassword'])->name('forgotten-password');
+    Route::get('/auth/forgot-password', [LoginController::class, 'resetPassword'])->name('forgot-password');
    
 });

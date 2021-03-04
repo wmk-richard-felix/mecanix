@@ -6,7 +6,7 @@
 @section('content-auth')
 
     <div class="login-wrapper my-auto ">
-        <h1 class="login-title">Bem-vindo à Mecanix</h1>
+        <h1 class="login-title">Para ver e gerenciar as informações da sua conta, entre abaixo.</h1>
 
         <form action="#!">
 
@@ -21,7 +21,7 @@
             </div>
 
             <div class="col-12 pt-2 text-end">
-                <a href="#!" class="forgot-password-link">Esqueci minha senha</a>
+                <a href="/auth/forgot-password" class="forgot-password-link">Esqueci minha senha</a>
             </div>
 
             <div class="col-12 pt-4 pb-3">
@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-12 px-1 text-center">
                     <p class="my-0 login-wrapper-footer-text">Não possui uma conta?
-                        <a href="#" class="text-reset">Criar conta</a>
+                        <a href="/auth/signup" class="text-reset">Criar conta</a>
                     </p>
                 </div>
             </div>

@@ -15,6 +15,6 @@ class LoginController extends Controller
     }
 
     public function resetPassword() {
-        return view('auth.forgotten-password');
+        return view('auth.forgot-password');
     }
 }
