@@ -16,12 +16,11 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Site\HomeController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\QuotationController;
 
 Route::name('site.')->group(function () {
     Route::get('/', [HomeController::class, 'index'])->name('home');
 });
-
-Route::view('/diagnostico', 'pages.diagnostico');
 
 Route::name('auth.')->group(function () {
     Route::get('/auth/signin', [LoginController::class, 'signIn'])->name('signin');
@@ -29,3 +28,14 @@ Route::name('auth.')->group(function () {
     Route::get('/auth/forgot-password', [LoginController::class, 'resetPassword'])->name('forgot-password');
    
 });
+
+Route::name('pages.')->group(function () {
+
+    Route::view('/diagnostico', 'diagnostico');
+
+    Route::get('/quotation', [QuotationController::class, 'index'])->name('quotation-list');
+    Route::get('/quotation/id', [QuotationController::class, 'show'])->name('quotation');
+   
+})
+//->middleware('auth')
+;
